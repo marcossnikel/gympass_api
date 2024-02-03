@@ -3,6 +3,7 @@
 - Geolocalização
 - Só pode entrar até x minutos após feito check in
 
+
 # RFs (Requisitos Funcionais)
 
 - [✅] Deve ser possível se cadastrar;
