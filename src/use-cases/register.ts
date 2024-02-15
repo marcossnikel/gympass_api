@@ -9,7 +9,7 @@ type RegisterUseCaseParams = {
   password: string
 }
 
-type RegisterUseCaseResponse = {
+interface RegisterUseCaseResponse {
   user: User
 }
 
