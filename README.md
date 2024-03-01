@@ -3,7 +3,6 @@
 - Geolocalização
 - Só pode entrar até x minutos após feito check in
 
-
 # RFs (Requisitos Funcionais)
 
 - [x] Deve ser possível se cadastrar;
@@ -13,7 +12,7 @@
 - [ ] Deve ser possível o usuário obter seu histórico de check-in;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
-- [ ] Deve ser possível o usuário realizar check-in em uma academia;
+- [x] Deve ser possível o usuário realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
@@ -26,7 +25,7 @@
 - [ ] O check-in só pode ser validade por administradores;
 - [ ] A academia só pode ser cadastradas por administradores;
 
-# RNFs  (Requisitos não funcionais)
+# RNFs (Requisitos não funcionais)
 
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um bando PostgreSQL;
