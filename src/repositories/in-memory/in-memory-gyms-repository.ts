@@ -28,4 +28,12 @@ export class InMemoryGymsRepository implements GymsRepository {
 
     return gym
   }
+
+  async findByQuery(query: string, page: number) {
+    const gyms = await this.items
+      .filter((item) => item.title.includes(query))
+      .slice((page - 1) * 20, page * 20)
+
+    return gyms
+  }
 }
